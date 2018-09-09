@@ -59,8 +59,10 @@
     "safe-publish-latest": "^1.1.2",
     "tape": "^4.9.1"
   },
+  "peerDependencies": {
+    "@babel/core": "^7.0.0-0"
+  },
   "dependencies": {
-    "@babel/core": "^7.0.0",
     "@babel/plugin-syntax-dynamic-import": "^7.0.0",
     "object.assign": "^4.1.0"
   }
